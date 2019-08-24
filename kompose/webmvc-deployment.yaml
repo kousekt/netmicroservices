@@ -24,13 +24,14 @@ spec:
         - name: CallbackUrl
           value: http://localhost
         - name: CartUrl
-          value: http://cart
+          value: http://cart:5500
         - name: CatalogUrl
           value: http://catalog
         - name: IdentityUrl
           value: http://192.168.1.4:5000
+          #value: http://localhost:5000
         - name: OrderUrl
-          value: http://order
+          value: http://order:5600
         image: tkousek/mvc
         name: webshop
         ports:

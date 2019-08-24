@@ -7,13 +7,14 @@ kubectl apply -f rabbitmq-service.yaml
 kubectl apply -f basketdata-deployment.yaml
 kubectl apply -f basketdata-service.yaml
 
-kubectl apply -f cart-deployment.yaml
-kubectl apply -f cart-service.yaml
 
 # Stop here and wait a while before you run the tokenserver
 
 kubectl apply -f tokenserver-deployment.yaml
 kubectl apply -f tokenserver-service.yaml
+
+kubectl apply -f cart-deployment.yaml
+kubectl apply -f cart-service.yaml
 
 # Stop here and wait a while before you run the next
 

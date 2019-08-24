@@ -9,9 +9,10 @@ metadata:
     io.kompose.service: order
   name: order
 spec:
+  type: LoadBalancer
   ports:
   - name: "5600"
-    port: 80
+    port: 5600
     targetPort: 80
   selector:
     io.kompose.service: order

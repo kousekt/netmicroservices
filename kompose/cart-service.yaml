@@ -9,9 +9,10 @@ metadata:
     io.kompose.service: cart
   name: cart
 spec:
+  type: LoadBalancer
   ports:
   - name: "5500"
-    port: 80
+    port: 5500
     targetPort: 80
   selector:
     io.kompose.service: cart
