@@ -6,6 +6,8 @@ https://www.udemy.com/course/aspnet-core-20-e-commerce-web-site-based-on-microse
 This course is highly recommended.  Keep an eye out for future releases/upgrades to this course that will 
 include new technologies including the possibility of orchestrations.
 
+I can't recommend this course enough.  The application he creates and walks you thru will run on both a Kubernetes Cluster and a Docker compose environment.
+
 # Windows demo
 
 Running the kubernetes files to create/deploy to a Kubernetes cluster on Windows
@@ -21,3 +23,5 @@ https://youtu.be/NGiVjcwL9hE
 
 Running the docker-compose files for the Mac
 https://youtu.be/gZLyu0lZ8Tw
+
+
