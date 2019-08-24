@@ -13,8 +13,15 @@ I can't recommend this course enough.  The application he creates and walks you 
 Running the kubernetes files to create/deploy to a Kubernetes cluster on Windows
 https://youtu.be/B_z04N7Fedw
 
+Running Swagger against the Kubernetes example
+https://youtu.be/LMcx8Mkp6_E
+
 Running the docker-compose files in Windows
 https://youtu.be/HzdZfSJnoHk
+
+Running Swagger against the docker-compose example
+https://youtu.be/r-JzyFc_OHs
+
 
 # Mac demo
 
