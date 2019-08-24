@@ -6,7 +6,7 @@ https://www.udemy.com/course/aspnet-core-20-e-commerce-web-site-based-on-microse
 This course is highly recommended.  Keep an eye out for future releases/upgrades to this course that will 
 include new technologies including the possibility of orchestrations.
 
-Windows demo
+# Windows demo
 
 Running the kubernetes files to create/deploy to a Kubernetes cluster on Windows
 https://youtu.be/B_z04N7Fedw
@@ -14,7 +14,7 @@ https://youtu.be/B_z04N7Fedw
 Running the docker-compose files in Windows
 https://youtu.be/HzdZfSJnoHk
 
-Mac demo
+# Mac demo
 
 Running the kubernetes files to create/deploy to a Kubernetes cluster on the Mac
 https://youtu.be/NGiVjcwL9hE
