@@ -1,5 +1,5 @@
 # K8 Orchestrations for the ASP .NET Core Microservices Course
-These are kubernetes orchestration files for the awesome course (highly recommended) that I bought here that teaches you how to write production grade microservices.
+These are kubernetes orchestration files (in the "kompose" directory) for the awesome course (highly recommended) that I bought here that teaches you how to write production grade microservices.
 
 https://www.udemy.com/course/aspnet-core-20-e-commerce-web-site-based-on-microservices-and-docker/
 
