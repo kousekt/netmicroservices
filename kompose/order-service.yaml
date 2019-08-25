@@ -9,6 +9,7 @@ metadata:
     io.kompose.service: order
   name: order
 spec:
+  # For single node clusters, it's probobly best to use NodePort
   type: LoadBalancer
   ports:
   - name: "5600"

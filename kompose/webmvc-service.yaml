@@ -9,6 +9,7 @@ metadata:
     io.kompose.service: webmvc
   name: webmvc
 spec:
+  # For single node clusters, it's probobly best to use NodePort
   type: LoadBalancer
   ports:
   - name: "80"
