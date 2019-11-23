@@ -15,7 +15,6 @@ spec:
     targetPort: 80
   selector:
     io.kompose.service: tokenserver
-  # For single node clusters, it's probobly best to use NodePort    
-  type: LoadBalancer
+  type: NodePort
 status:
   loadBalancer: {}
