@@ -9,7 +9,6 @@ metadata:
     io.kompose.service: cart
   name: cart
 spec:
-  type: LoadBalancer
   ports:
   - name: "5500"
     port: 5500
