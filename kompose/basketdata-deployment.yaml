@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
@@ -6,22 +6,27 @@ metadata:
     kompose.version: 1.17.0 (a74acad)
   creationTimestamp: null
   labels:
-    io.kompose.service: basketdata
-  name: basketdata
+    io.kompose.service: basket-data
+  name: basket-data
 spec:
+  selector:
+    matchLabels:
+      io.kompose.service: basket-data
   replicas: 1
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        io.kompose.service: basketdata
+        io.kompose.service: basket-data
     spec:
       containers:
       - image: redis
-        name: basketdata
+        imagePullPolicy: Never
+        name: basket-data
         ports:
         - containerPort: 6379
         resources: {}
       restartPolicy: Always
 status: {}
+
