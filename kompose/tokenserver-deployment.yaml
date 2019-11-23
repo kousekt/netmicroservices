@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
@@ -9,6 +9,9 @@ metadata:
     io.kompose.service: tokenserver
   name: tokenserver
 spec:
+  selector:
+    matchLabels:
+      io.kompose.service: tokenserver
   replicas: 1
   strategy: {}
   template:
@@ -24,10 +27,11 @@ spec:
         - name: BasketApiClient
           value: http://localhost:5500
         - name: MvcClient
-          value: http://192.168.1.4
+          value: http://192.168.64.11:32252
         - name: OrderApiClient
           value: http://localhost:5600
         image: tkousek/tserver
+        imagePullPolicy: IfNotPresent
         name: tokenserviceapi
         ports:
         - containerPort: 80
