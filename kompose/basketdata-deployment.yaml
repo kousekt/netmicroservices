@@ -6,27 +6,28 @@ metadata:
     kompose.version: 1.17.0 (a74acad)
   creationTimestamp: null
   labels:
-    io.kompose.service: basket-data
-  name: basket-data
+    io.kompose.service: basketdata
+  name: basketdata
 spec:
   selector:
     matchLabels:
-      io.kompose.service: basket-data
+      io.kompose.service: basketdata
   replicas: 1
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        io.kompose.service: basket-data
+        io.kompose.service: basketdata
     spec:
       containers:
       - image: redis
-        imagePullPolicy: Never
-        name: basket-data
+        imagePullPolicy: IfNotPresent
+        name: basketdata
         ports:
         - containerPort: 6379
         resources: {}
       restartPolicy: Always
 status: {}
+
 
